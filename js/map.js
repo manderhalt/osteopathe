@@ -11,6 +11,7 @@ function initialize() {
       var marker = new google.maps.Marker({
          position: myLatlng,
          map: map,
+         draggable: false,
          title: "Cabinet d'ostéopathie de l'Embouchure"
       });
 }
